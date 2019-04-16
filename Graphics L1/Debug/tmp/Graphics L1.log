@@ -1,0 +1,55 @@
+﻿Build started 05/05/2018 10:28:54 ص.
+     1>Project "D:\3D Snake_Final\Graphics L1\Graphics L1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\3D Snake_Final\Graphics L1\..\middleware\includes" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\tmp\\" /Fd"Debug\tmp\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Renderer.cpp
+         Renderer.cpp
+     1>c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: 'APIENTRY' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\gl\glfw3.h(98) : see previous definition of 'APIENTRY'
+     1>d:\3d snake_final\graphics l1\renderer.h(16): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\3d snake_final\graphics l1\renderer.h(68): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\3d snake_final\graphics l1\renderer.cpp(18): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>d:\3d snake_final\graphics l1\renderer.cpp(23): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\3d snake_final\graphics l1\renderer.cpp(33): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\3d snake_final\graphics l1\renderer.cpp(75): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\3d snake_final\graphics l1\renderer.cpp(108): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\3d snake_final\graphics l1\renderer.cpp(400): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+     1>d:\3d snake_final\graphics l1\renderer.cpp(410): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>d:\3d snake_final\graphics l1\renderer.cpp(608): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\3d snake_final\graphics l1\renderer.cpp(609): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\3d snake_final\graphics l1\renderer.cpp(610): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\3d snake_final\graphics l1\renderer.cpp(611): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\3d snake_final\graphics l1\renderer.cpp(615): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\3d snake_final\graphics l1\renderer.cpp(616): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\3d snake_final\graphics l1\renderer.cpp(617): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\3d snake_final\graphics l1\renderer.cpp(618): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\3d snake_final\graphics l1\renderer.cpp(628): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\3d snake_final\graphics l1\renderer.cpp(631): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\3d snake_final\graphics l1\renderer.cpp(634): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\3d snake_final\graphics l1\renderer.cpp(637): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\3d snake_final\graphics l1\renderer.cpp(679): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\3d snake_final\graphics l1\renderer.cpp(141): warning C4715: 'Renderer::Move_aux' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\3D Snake_Final\Debug\Graphics L1.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\3D Snake_Final\Graphics L1\..\middleware\lib" dsound.lib dxguid.lib winmm.lib assimp.lib FreeImage.lib glew32.lib glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\3D Snake_Final\Debug\Graphics L1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\3D Snake_Final\Debug\Graphics L1.lib" /MACHINE:X86 Debug\tmp\FirstPersonCamera.obj
+         Debug\tmp\md2LeagueOfLegend.obj
+         Debug\tmp\Md3.obj
+         Debug\tmp\MD5Animation.obj
+         Debug\tmp\MD5Model.obj
+         Debug\tmp\Renderer.obj
+         Debug\tmp\KeyFrameAnimationShader.obj
+         Debug\tmp\main.obj
+         Debug\tmp\md2model.obj
+         Debug\tmp\Model.obj
+         Debug\tmp\Model3D.obj
+         Debug\tmp\ModelNode.obj
+         Debug\tmp\shader.obj
+         Debug\tmp\ShaderProgram.obj
+         Debug\tmp\stb_image.obj
+         Debug\tmp\texture.obj
+         Debug\tmp\TexturedModel.obj
+         Debug\tmp\vertexBufferObject.obj
+         Graphics L1.vcxproj -> D:\3D Snake_Final\Debug\Graphics L1.exe
+     1>Done Building Project "D:\3D Snake_Final\Graphics L1\Graphics L1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.01
